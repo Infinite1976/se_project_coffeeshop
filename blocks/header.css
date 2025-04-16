@@ -10,7 +10,7 @@
 .header__title {
   margin: 183px 0 0;
   max-width: 729px;
-  font-family: "Inter", "Arial", sans-serif;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
@@ -20,7 +20,7 @@
 
 .header__span-accent {
   display: block;
-  font-family: Noto Serif, "Times New Roman", serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   color: #3f96f3;
 }
@@ -28,7 +28,7 @@
 .header__description {
   margin: 28px 0 0;
   max-width: 683px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -47,11 +47,12 @@
   margin-top: auto;
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 .header__paragraph {
-  margin: 0%;
-  font-family: "Inter";
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
